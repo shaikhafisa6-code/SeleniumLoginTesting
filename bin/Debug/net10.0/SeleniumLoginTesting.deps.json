@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "SeleniumLoginTesting/1.0.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.50.0"
+        },
+        "runtime": {
+          "SeleniumLoginTesting.dll": {}
+        }
+      },
+      "Selenium.WebDriver/4.50.0": {
+        "runtime": {
+          "lib/net8.0/Selenium.WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/selenium-manager": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/selenium-manager": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/selenium-manager": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win/native/selenium-manager.exe": {
+            "rid": "win",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SeleniumLoginTesting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Selenium.WebDriver/4.50.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4D7SYT9u25xHk7KYI7cyd1vQnv04jUAKkGWi2Ia6RUj2SDzYLhlTMZ7uknliS/HNu+WELewsugY/fLUaYpMVNA==",
+      "path": "selenium.webdriver/4.50.0",
+      "hashPath": "selenium.webdriver.4.50.0.nupkg.sha512"
+    }
+  }
+}
